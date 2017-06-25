@@ -6,7 +6,7 @@ package object nigredo {
 
   sealed trait Error
 
-  case class CalculationError(msg: String) extends Error
+  case class ValidationsError(msg: List[String]) extends Error
 
   type Result[A] = Either[Error, A]
   type LoggedResult[A] = Result[Writer[Vector[String], A]]

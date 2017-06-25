@@ -9,3 +9,4 @@ crossPaths := false
 libraryDependencies += "org.typelevel" %% "cats" % "0.9.0"
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.1"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"
+libraryDependencies += "org.mongodb.scala" %% "mongo-scala-driver" % "2.1.0"
